@@ -39,6 +39,7 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BrainUpMobile/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = BrainUpMobile/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-BrainUpMobile-BrainUpMobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BrainUpMobile-BrainUpMobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D96C7532C3C5B5C00539728 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-BrainUpMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrainUpMobile.debug.xcconfig"; path = "Target Support Files/Pods-BrainUpMobile/Pods-BrainUpMobile.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-BrainUpMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrainUpMobile.release.xcconfig"; path = "Target Support Files/Pods-BrainUpMobile/Pods-BrainUpMobile.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-BrainUpMobile-BrainUpMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrainUpMobile-BrainUpMobileTests.debug.xcconfig"; path = "Target Support Files/Pods-BrainUpMobile-BrainUpMobileTests/Pods-BrainUpMobile-BrainUpMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -46,7 +47,7 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = BrainUpMobile/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-BrainUpMobile-BrainUpMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrainUpMobile-BrainUpMobileTests.release.xcconfig"; path = "Target Support Files/Pods-BrainUpMobile-BrainUpMobileTests/Pods-BrainUpMobile-BrainUpMobileTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F8A21E2F4A3F38DF0BB23194 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = BrainUpMobile/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		F8A21E2F4A3F38DF0BB23194 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = BrainUpMobile/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +90,7 @@
 		13B07FAE1A68108700A75B9A /* BrainUpMobile */ = {
 			isa = PBXGroup;
 			children = (
+				1D96C7522C3C5B5100539728 /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -99,6 +101,14 @@
 				F8A21E2F4A3F38DF0BB23194 /* PrivacyInfo.xcprivacy */,
 			);
 			name = BrainUpMobile;
+			sourceTree = "<group>";
+		};
+		1D96C7522C3C5B5100539728 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1D96C7532C3C5B5C00539728 /* MaterialCommunityIcons.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
